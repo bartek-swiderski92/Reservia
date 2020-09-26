@@ -179,7 +179,8 @@ section.popular .header i.fas {
 
 /* place styling */
 
-.place {
+.place,
+.activity {
     display: flex;
     flex-basis: 120px;
     width: 90%;
@@ -230,15 +231,22 @@ section.popular .header i.fas {
     color: var(--blue);
 }
 
-.place .picture img {
+/* TODO: image proportion */
+.picture img {
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
+}
+
+.accomodations,
+.accomodations .wrapper,
+.accomodations .wrapper .place {
+    display: flex;
+    flex-direction: column;
 }
 
 .accomodations .wrapper .place {
-    flex-direction: column;
-    height: 30vh;
+    flex-basis: 180px;
 }
 
 .accomodations .wrapper .place picture {
@@ -247,4 +255,16 @@ section.popular .header i.fas {
 
 .accomodations .wrapper .place .wrapper {
     flex-basis: 60%;
+}
+
+.accomodations a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 30px 20px;
+}
+
+.activities .activity {
+    display: flex;
+    flex-direction: column;
 }
