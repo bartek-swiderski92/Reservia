@@ -93,3 +93,64 @@ nav button.search-btn {
     color: white;
     background-color: var(--blue);
 }
+
+/* nav filters */
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 10px 15px 20px
+}
+
+.filters h2 {
+    flex-basis: 100%;
+    font-size: 20px;
+    margin: 20px 10px 15px 20px
+}
+
+.filters .filter {
+    display: flex;
+    border: 2px solid var(--bgc);
+    margin: 10px;
+    background-color: #fff;
+    height: 50px;
+    line-height: 25px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.filters .filter p {
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 10px 0 10px;
+}
+
+/* TODO border offset  */
+.filters .filter i.fas {
+    color: var(--blue);
+    background-color: var(--light-blue);
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+nav .info {
+    margin: 20px 20px;
+    font-size: 16px;
+    display: flex;
+}
+
+/*  TODO erfect radius  */
+nav .info i.fas {
+    color: var(--blue);
+    border: 1px solid var(--bgc);
+    height: 25px;
+    flex-basis: 25px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
