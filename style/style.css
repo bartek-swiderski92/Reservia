@@ -1,6 +1,6 @@
 :root {
-    --blue: #0065FC;
-    --light-blue: #DEEBFF;
+    --main-color: #0065FC;
+    --secondary-color: #DEEBFF;
     --bgc: #ddd;
 }
 
@@ -33,7 +33,7 @@ header a {
     right: 30px;
     top: 45px;
     font-size: 16px;
-    color: var(--blue);
+    color: var(--main-color);
     font-weight: 700;
 }
 
@@ -52,8 +52,8 @@ header .buttons button {
 }
 
 header .buttons button.active {
-    color: var(--blue);
-    border-color: var(--blue);
+    color: var(--main-color);
+    border-color: var(--main-color);
 }
 
 /*  nav  */
@@ -101,7 +101,7 @@ nav button.search-btn {
     border: none;
     border-radius: 15px;
     color: white;
-    background-color: var(--blue);
+    background-color: var(--main-color);
 }
 
 /* nav filters */
@@ -137,8 +137,8 @@ nav button.search-btn {
 
 /* TODO border offset  */
 .filters .filter i.fas {
-    color: var(--blue);
-    background-color: var(--light-blue);
+    color: var(--main-color);
+    background-color: var(--secondary-color);
     height: 50px;
     width: 50px;
     line-height: 50px;
@@ -153,7 +153,7 @@ nav .info {
 
 /*  TODO erfect radius  */
 nav .info i.fas {
-    color: var(--blue);
+    color: var(--main-color);
     border: 1px solid var(--bgc);
     height: 25px;
     flex-basis: 25px;
@@ -238,7 +238,7 @@ section.popular .header i.fas {
 }
 
 .place .wrapper .rating i.fas.active {
-    color: var(--blue);
+    color: var(--main-color);
 }
 
 /* TODO: image proportion */
