@@ -1,7 +1,7 @@
 :root {
     --blue: #0065FC;
     --light-blue: #DEEBFF;
-    --bgc: #F2F2;
+    --bgc: #ddd;
 }
 
 * {
@@ -9,9 +9,10 @@
     padding: 0;
     font-size: 10px;
     font-family: 'Raleway', sans-serif;
-
+    box-sizing: border-box;
 }
 
+/* header */
 header img {
     height: 50px;
     margin: 20px 15px;
@@ -21,9 +22,28 @@ header a {
     position: absolute;
     right: 30px;
     top: 45px;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: var(--blue);
     text-decoration: none;
     font-weight: 700;
+}
+
+header .buttons {
+    display: flex;
+}
+
+header .buttons button {
+    display: inline-block;
+    background-color: transparent;
+    width: 50%;
+    border: none;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--bgc);
+}
+
+header .buttons button.active {
+    color: var(--blue);
+    border-color: var(--blue);
 
 }
