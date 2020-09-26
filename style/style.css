@@ -154,3 +154,18 @@ nav .info i.fas {
     margin-right: 20px;
 }
 
+/* section popular */
+
+section.popular {
+    background-color: var(--bgc);
+}
+
+section.popular .header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px
+}
+
+section.popular .place {}
