@@ -177,7 +177,9 @@ section.popular .header i.fas {
     line-height: 40px;
 }
 
-section.popular .place {
+/* place styling */
+
+.place {
     display: flex;
     flex-basis: 120px;
     width: 90%;
@@ -189,30 +191,12 @@ section.popular .place {
     overflow: hidden;
 }
 
-section.popular .place .picture {
+.place .picture {
     flex-basis: 40%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
-section.popular .place.morning .picture {
-    background-image: url("../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-
-}
-
-section.popular .place.au-coeur .picture {
-    background-image: url("../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
-
-}
-
-section.popular .place.tout-bleu .picture {
-    background-image: url("../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-
-}
-
-
-/* place styling */
 
 .place .wrapper {
     flex-basis: 60%;
@@ -244,4 +228,23 @@ section.popular .place.tout-bleu .picture {
 
 .place .wrapper .rating i.fas.active {
     color: var(--blue);
+}
+
+.place .picture img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.accomodations .wrapper .place {
+    flex-direction: column;
+    height: 30vh;
+}
+
+.accomodations .wrapper .place picture {
+    flex-basis: 30%;
+}
+
+.accomodations .wrapper .place .wrapper {
+    flex-basis: 60%;
 }
