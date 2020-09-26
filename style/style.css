@@ -1,8 +1,12 @@
+/* Variables */
+
 :root {
     --main-color: #0065FC;
     --secondary-color: #DEEBFF;
     --bgc: #ddd;
 }
+
+/* Reset */
 
 * {
     margin: 0;
@@ -20,12 +24,19 @@ ul {
     list-style: none;
 }
 
+button {
+    cursor: pointer;
+    background-color: none;
+    border: none;
+}
+
 
 
 /* header */
 header img {
     height: 50px;
     margin: 20px 15px;
+    cursor: pointer;
 }
 
 header a {
