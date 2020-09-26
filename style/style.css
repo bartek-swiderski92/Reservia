@@ -264,7 +264,25 @@ section.popular .header i.fas {
     margin: 30px 20px;
 }
 
+
+/* Activities */
+.activities h2 {
+    margin: 20px;
+}
+
+.activities,
 .activities .activity {
     display: flex;
     flex-direction: column;
 }
+
+.activities .activity .picture {
+    flex-basis: 70%;
+}
+
+.activities .activity h3 {
+    flex-basis: 30%;
+    padding: 20px;
+}
+
+/* Footer  */
