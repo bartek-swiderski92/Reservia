@@ -16,6 +16,7 @@
 }
 
 a {
+    display: block;
     text-decoration: none;
     color: black;
 }
@@ -26,7 +27,7 @@ ul {
 
 button {
     cursor: pointer;
-    background-color: none;
+    background-color: transparent;
     border: none;
 }
 
@@ -48,27 +49,74 @@ header a {
     font-weight: 700;
 }
 
-header .buttons {
+ul {
     display: flex;
+    justify-content: end;
 }
 
-header .buttons button {
+li {
+    flex-basis: 50%;
+}
+
+li:nth-last-of-type(3) {
+    /* flex-basis: 0; */
+    /* width: 0; */
+    /* flex-basis: 50%; */
+}
+
+/* header .buttons {
+    display: flex;
+} */
+
+header ul li button {
     display: inline-block;
     background-color: transparent;
-    width: 50%;
+    width: 100%;
     border: none;
     font-size: 16px;
     padding-bottom: 10px;
     border-bottom: 2px solid var(--bgc);
+
 }
 
-header .buttons button.active {
+header button.active {
     color: var(--main-color);
     border-color: var(--main-color);
 }
 
-/*  nav  */
+@media (min-width: 1024px) {
+    header ul {
+        margin: 5px;
+        top: 0;
+        right: 10%;
+        position: absolute;
+        width: 30%
+    }
 
+    header ul li button {
+        padding-top: 40px;
+        border: none;
+    }
+
+    header ul li button.active {
+        border-top: 2px solid var(--main-color);
+    }
+
+    /* header a {
+        position: static;
+    } */
+
+    /* .buttons-wrapper {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        justify-content: space-around;
+    } */
+}
+
+/*  nav  */
 nav h1 {
     font-size: 22px;
     margin: 20px 20px 0 20px;
@@ -87,6 +135,7 @@ nav .search {
     border-radius: 15px;
     margin: 10px 20px;
     overflow: hidden;
+    max-width: 320px
 }
 
 nav .pin {
@@ -101,8 +150,14 @@ nav .pin {
 nav input {
     border: none;
     content: "Mareseille, France";
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 700;
+}
+
+@media (min-width: 360px) {
+    nav input {
+        font-size: 16px;
+    }
 }
 
 nav button.search-btn {
@@ -113,6 +168,39 @@ nav button.search-btn {
     border-radius: 15px;
     color: white;
     background-color: var(--main-color);
+}
+
+nav button.search-btn span {
+    display: none;
+}
+
+@media(min-width: 1280px) {
+
+    nav input {
+        flex-basis: 50px;
+        text-indent: 15px;
+    }
+
+    nav button.search-btn i.fas {
+        display: none;
+    }
+
+    nav button.search-btn {
+        width: auto;
+        height: 50px;
+        font-size: 20px;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        background-color: var(--main-color);
+    }
+
+    nav button.search-btn span {
+        display: inline;
+        font-size: 16px;
+        padding: 10px;
+        line-height: 50px;
+    }
 }
 
 /* nav filters */
@@ -182,7 +270,6 @@ section.popular {
     flex-direction: column;
     background-color: var(--bgc);
     padding: 20px 0 50px 0;
-
 }
 
 section.popular .header {
@@ -253,6 +340,74 @@ section.popular .header i.fas {
     color: var(--main-color);
 }
 
+@media (min-width: 414px) {
+
+    .place,
+    .activity {
+        flex-basis: 140px;
+    }
+
+    .place .wrapper h2 {
+        font-size: 16px;
+    }
+
+    .place .wrapper h3 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 568px) {
+
+    .place,
+    .activity {
+        flex-basis: 140px;
+    }
+
+    .place .wrapper h2 {
+        font-size: 18px;
+    }
+
+    .place .wrapper h3 {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 667px) {
+
+    .place,
+    .activity {
+        flex-basis: 140px;
+    }
+
+    .place .wrapper h2 {
+        font-size: 20px;
+    }
+
+    .place .wrapper h3 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 800px) {
+
+    .place,
+    .activity {
+        flex-basis: 180px;
+    }
+
+    .place .wrapper h2 {
+        font-size: 24px;
+    }
+
+    .place .wrapper h3 {
+        font-size: 20px;
+    }
+
+    .place .wrapper .rating i.fas {
+        font-size: 18px;
+    }
+}
+
 /* TODO: image proportion */
 
 .picture img {
@@ -261,34 +416,40 @@ section.popular .header i.fas {
     object-fit: cover;
 }
 
-/* section ccomodation  */
+/* section Accomodation  */
 
-.accomodations,
-.accomodations .wrapper,
-.accomodations .wrapper .place {
+.accommodations,
+.accommodations .wrapper,
+.accommodations .wrapper .place {
     display: flex;
     flex-direction: column;
 }
 
-.accomodations h2 {
+.accommodations h2 {
     margin: 40px 20px 20px 20px
 }
 
-.accomodations .wrapper .place {
+.accommodations .wrapper .place {
     flex-basis: 180px;
 }
 
-.accomodations .wrapper .place picture {
+.accommodations .wrapper .place picture {
     flex-basis: 30%;
 }
 
-.accomodations .wrapper .place .wrapper {
+.accommodations .wrapper .place .wrapper {
     flex-basis: 60%;
 }
 
-.accomodations a {
+.accommodations a {
     font-weight: 700;
-    margin: 30px 20px;
+    margin: 30px 5%;
+}
+
+@media (min-width: 667px) {
+    .accommodations a {
+        font-size: 18px;
+    }
 }
 
 
