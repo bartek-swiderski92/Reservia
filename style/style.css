@@ -3,7 +3,7 @@
 :root {
     --main-color: #0065FC;
     --secondary-color: #DEEBFF;
-    --bgc: #ddd;
+    --bgc: #eee;
 }
 
 /* Reset */
@@ -31,6 +31,19 @@ button {
     border: none;
 }
 
+.wrap {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+body {
+    background-color: #ddd;
+}
 
 
 /* header */

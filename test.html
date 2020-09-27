@@ -5,51 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
-<style>
-    ul {
-        list-style: none;
-        display: flex;
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin: 50px
-    }
-
-    li,
-    li button,
-    li a {
-        padding: 20px;
-        font-size: 30px;
-        color: skyblue;
-        background-color: transparent;
-        border: none;
-        font-family: sans-serif;
-        text-decoration: none;
-    }
-
-    li a {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin: 0;
-        padding: 0;
-        ;
-    }
-</style>
 
 <body>
-    <header>
-        <img src="images/logo/Reservia.svg" alt="">
-        <ul>
-            <li><button class="active">Accommodations</button></li>
-            <li><button>Activities</button></li>
-            <li><a href="#">Sign up</a></li>
-        </ul>
-        <div class="buttons">
-        </div>
-    </header>
+
+    <section class="accommodations">
+        <h2>Accommodations in Marseille</h2>
+        <a href="google.com">
+            <div class="place">
+                <div class="picture">
+                    <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+                </div>
+                <div class="wrapper">
+                    <h2>Auberge La Cannebière</h2>
+                    <h3>Night Starting at <span class="price">€25</span></h3>
+                    <div class="rating">
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star active"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            </a>
+    </section>
 </body>
 
 </html>
