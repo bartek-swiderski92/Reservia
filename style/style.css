@@ -215,9 +215,10 @@ section.popular .header i.fas {
 
 .place .picture {
     flex-basis: 40%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+}
+
+.place .picture img {
+    object-fit: cover;
 }
 
 .place .wrapper {
