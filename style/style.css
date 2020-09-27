@@ -291,12 +291,11 @@ nav .info {
     display: flex;
 }
 
-/*  TODO erfect radius  */
 nav .info i.fas {
     color: var(--main-color);
     border: 1px solid var(--bgc);
     height: 25px;
-    flex-basis: 25px;
+    min-width: 25px;
     font-size: 10px;
     text-align: center;
     line-height: 25px;
