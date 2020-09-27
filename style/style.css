@@ -146,7 +146,6 @@ nav button.search-btn {
     padding: 10px 10px 0 10px;
 }
 
-/* TODO border offset  */
 .filters .filter i.fas {
     color: var(--main-color);
     background-color: var(--secondary-color);
@@ -154,6 +153,7 @@ nav button.search-btn {
     width: 50px;
     line-height: 50px;
     border-radius: 50%;
+    transform: translate(-3px, -2px);
 }
 
 nav .info {
