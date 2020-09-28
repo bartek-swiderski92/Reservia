@@ -45,9 +45,6 @@ body {
     background-color: #ddd;
 }
 
-.rating {
-    justify-self: flex-end;
-}
 
 /* header */
 header img {
@@ -458,7 +455,7 @@ section.popular .header i.fas {
     object-fit: cover;
 }
 
-/* sub-section Accomodation  */
+/* sub-section Accommodation  */
 
 .accommodations,
 .accommodations .wrapper,
@@ -493,7 +490,6 @@ section.popular .header i.fas {
         justify-content: space-between;
     }
 
-
     .accommodations .wrapper .place {
         height: 300px;
         width: 45%;
@@ -502,7 +498,6 @@ section.popular .header i.fas {
 
 .accommodations .wrapper .place .picture {
     height: 60%;
-
 }
 
 .accommodations .wrapper .place .wrapper {
@@ -512,16 +507,25 @@ section.popular .header i.fas {
 
 .accommodations a {
     font-weight: 700;
-    margin: 35px 5% 0;
+    margin: 35px 5% 20px;
     font-size: 18px;
 }
 
 
 @media (min-width:1280px) {
 
+    .visits {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
 
     .accommodations {
         padding: 20px;
+        flex-basis: 58%;
+        background-color: var(--bgc);
+        border-radius: 25px;
+        justify-content: space-between;
     }
 
     .accommodations>h2 {
@@ -537,23 +541,13 @@ section.popular .header i.fas {
         /* margin-bottom: 10px; */
     }
 
-    .visits {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-around;
-    }
 
-    .accommodations {
-        flex-basis: 58%;
-        background-color: var(--bgc);
-        border-radius: 25px;
-        justify-content: space-between;
-
-    }
+    .accommodations {}
 
     .accommodations .wrapper {
         flex-direction: row;
         flex-wrap: wrap;
+        height: 500px;
     }
 
     .accommodations .wrapper .place {
@@ -561,6 +555,8 @@ section.popular .header i.fas {
         width: 50%;
         background-color: white;
         margin: 10px;
+        height: 250px;
+        width: 45%;
     }
 
     section.popular {
@@ -605,20 +601,16 @@ section.popular .header i.fas {
 }
 
 .activities .activity .picture {
-    height: 70%;
+    height: calc(100% - 46px);
 }
 
 .activities .activity h3 {
-    flex-basis: 30%;
-    padding: 10px 20px;
+    font-size: 16px;
+    height: 36px;
+    padding: 16px 20px;
 }
 
 @media (min-width: 568px) {
-    .accommodations .wrapper .place {
-        height: 300px;
-        width: 45%;
-    }
-
     .activities-wrap {
         flex-wrap: wrap;
         height: 900px;
@@ -629,49 +621,46 @@ section.popular .header i.fas {
         width: 45%;
         height: 260px;
     }
-
-    .activities .activity .picture {
-        height: 70%;
-    }
-
-    .activities .activity h3 {
-        flex-basis: 30%;
-        padding: 10px 20px;
-    }
 }
 
 @media (min-width: 1280px) {
-    .accommodations .wrapper {
-        height: 500px;
-    }
-
-    .accommodations .wrapper .place {
-        height: 250px;
-        width: 45%;
-    }
-
     .activities h2 {}
 
     .activities-wrap {
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 600px;
+        height: 500px;
+        align-content: center;
     }
 
     .activities .activity {
         /* flex-basis: 50%; */
-        width: 30%;
-        margin: 20px;
+        width: 22%;
+        margin: 10px;
         overflow: hidden;
     }
 
+    .activities .activity:nth-child(3n + 1) {
+        height: 100%
+    }
+
+    .activities .activity:nth-child(2) {
+        height: 55%
+    }
+
+    .activities .activity:nth-child(3) {
+        height: 35%
+    }
+
+    .activities .activity:nth-child(5),
+    .activities .activity:nth-child(6) {
+        height: 45%
+    }
+
     .activities .activity .picture {
-        flex-basis: 70%;
+        height: calc(100% - 56px);
     }
 
     .activities .activity h3 {
-        flex-basis: 30%;
-        padding: 20px;
+        height: 36px;
     }
 }
 
@@ -680,6 +669,7 @@ section.popular .header i.fas {
 footer {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background-color: var(--bgc);
     margin-top: 50px;
     padding: 20px;
