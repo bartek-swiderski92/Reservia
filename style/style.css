@@ -342,7 +342,7 @@ section.popular .header i.fas {
     overflow: hidden;
 }
 
-.place .picture {
+.popular .place .picture {
     flex-basis: 40%;
 }
 
@@ -567,7 +567,7 @@ section.popular .header i.fas {
         justify-content: space-between;
     }
 
-    .accommodations .wrapper .place picture {
+    .accommodations .wrapper .place .picture {
         flex-basis: 60%;
     }
 
