@@ -385,7 +385,7 @@ section.popular .header i.fas {
 @media (min-width: 414px) {
 
     .popular .place {
-        flex-basis: 140px;
+        flex-basis: 160px;
     }
 
     .place .wrapper h2 {
@@ -399,51 +399,51 @@ section.popular .header i.fas {
 
 @media (min-width: 568px) {
 
-    .popular .place {
+    /* .popular .place {
         flex-basis: 140px;
-    }
+    } */
 
-    .place .wrapper h2 {
-        font-size: 18px;
+    /* .place .wrapper h2 {
+        font-size: 16px;
     }
 
     .place .wrapper h3 {
-        font-size: 16px;
-    }
+        font-size: 14px;
+    } */
 }
 
 @media (min-width: 667px) {
 
-    .popular .place {
+    /* .popular .place {
         flex-basis: 140px;
-    }
+    } */
 
-    .place .wrapper h2 {
-        font-size: 20px;
-    }
+    /* .place .wrapper h2 {
+        font-size: 16x;
+    } */
 
-    .place .wrapper h3 {
-        font-size: 18px;
-    }
+    /* .place .wrapper h3 {
+        font-size: 14px;
+    } */
 }
 
 @media (min-width: 800px) {
 
-    .popular .place {
-        flex-basis: 180px;
-    }
+    /* .popular .place {
+        flex-basis: 160px;
+    } */
 
-    .place .wrapper h2 {
-        font-size: 24px;
-    }
-
+    /* .place .wrapper h2 {
+        font-size: 16px;
+    } */
+    /* 
     .place .wrapper h3 {
-        font-size: 20px;
-    }
+        font-size: 16px;
+    } */
 
-    .place .wrapper .rating i.fas {
-        font-size: 18px;
-    }
+    /* .place .wrapper .rating i.fas {
+        font-size: 13px;
+    } */
 }
 
 /* TODO: image proportion */
@@ -526,11 +526,11 @@ section.popular .header i.fas {
     }
 
     .place .wrapper .rating i.fas {
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
     }
 
     .place .wrapper h3 {
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
     }
 
     .visits {
@@ -562,7 +562,7 @@ section.popular .header i.fas {
     section.popular {
         flex-basis: 35%;
         border-radius: 25px;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
 
     .accommodations .wrapper .place .picture {
