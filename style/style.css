@@ -206,6 +206,7 @@ nav button.search-btn span {
         border-radius: 15px;
         color: white;
         background-color: var(--main-color);
+        font-weight: 700;
     }
 
     nav button.search-btn span {
@@ -236,6 +237,8 @@ nav button.search-btn span {
         margin-right: 50px;
     }
 }
+
+/* ???? ORDER ???? */
 
 .filters .filter {
     display: flex;
@@ -274,6 +277,7 @@ nav button.search-btn span {
     background-color: var(--secondary-color);
     height: 50px;
     width: 50px;
+    font-size: 18px;
     line-height: 50px;
     border-radius: 50%;
     transform: translate(-1.5px, -1.5px);
