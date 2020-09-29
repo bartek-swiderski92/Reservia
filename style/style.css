@@ -574,7 +574,7 @@ section.popular .header i.fas {
 
     .accommodations {
         padding: 20px;
-        flex-basis: 58%;
+        flex-basis: 65%;
         background-color: var(--bgc);
         border-radius: 25px;
         justify-content: space-between;
@@ -604,15 +604,13 @@ section.popular .header i.fas {
 
     .accommodations .wrapper .place {
         flex-basis: 30%;
-        width: 50%;
         background-color: white;
         margin: 10px;
         height: 250px;
-        width: 45%;
     }
 
     section.popular {
-        flex-basis: 35%;
+        flex-basis: 30%;
         border-radius: 25px;
         justify-content: space-between;
     }
@@ -630,19 +628,15 @@ section.popular .header i.fas {
     }
 }
 
-@media (min-width:1140px) {
+@media (min-width:1440px) {
 
 
     .accommodations {
         padding: 20px;
-        flex-basis: 58%;
-        background-color: var(--bgc);
-        border-radius: 25px;
-        justify-content: space-between;
     }
 
     .accommodations>h2 {
-        margin: 5px 10px 10px 5px;
+        margin: 25px 10px 10px 15px;
         font-size: 30px;
     }
 
@@ -660,26 +654,22 @@ section.popular .header i.fas {
     .accommodations .wrapper {
         flex-direction: row;
         flex-wrap: wrap;
-        height: 500px;
+        height: 300px;
     }
 
     .accommodations .wrapper .place {
         flex-basis: 30%;
-        width: 50%;
         background-color: white;
         margin: 10px;
-        height: 250px;
-        width: 45%;
+        height: 200px;
     }
 
     section.popular {
-        flex-basis: 35%;
-        border-radius: 25px;
-        justify-content: space-between;
+        flex-basis: 30%;
     }
 
     .accommodations .wrapper .place .picture {
-        height: 50%;
+        height: 60%;
     }
 
     .accommodations .wrapper .place .wrapper {
@@ -688,6 +678,12 @@ section.popular .header i.fas {
 
     .accommodations a {
         font-size: 20px;
+    }
+
+    .place .wrapper .rating i.fas {
+        font-size: 12px;
+        color: var(--bgc);
+        align-self: flex-end;
     }
 }
 
