@@ -190,7 +190,7 @@ nav .pin {
     line-height: 50px;
     text-align: center;
     font-size: 20px;
-    width: 50px;
+    min-width: 50px;
     height: 50px;
 }
 
@@ -199,6 +199,8 @@ nav input {
     content: "Mareseille, France";
     font-size: 12px;
     font-weight: 700;
+    margin-left: 15px;
+
 }
 
 @media (min-width: 360px) {
@@ -222,10 +224,21 @@ nav button.search-btn span {
 }
 
 @media(min-width: 1024px) {
+    nav .search {
+        max-width: 380px;
+        background-color: var(--main-color);
+        border: none
+    }
 
+    nav .pin {}
+
+    /* blue lines on pin button ????? */
     nav input {
-        flex-basis: 50px;
-        text-indent: 15px;
+        flex-basis: 100%;
+        margin: 0;
+        padding-left: 15px;
+        border: 1px solid var(--bgc);
+
     }
 
     nav button.search-btn i.fas {
@@ -239,7 +252,6 @@ nav button.search-btn span {
         border: none;
         border-radius: 15px;
         color: white;
-        background-color: var(--main-color);
         font-weight: 700;
     }
 
@@ -327,6 +339,10 @@ nav .info {
     margin: 20px 20px;
     font-size: 16px;
     display: flex;
+}
+
+nav .info div {
+    width: 380px;
 }
 
 nav .info i.fas {
