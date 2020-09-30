@@ -49,14 +49,14 @@ body {
 /* header */
 header img {
     height: 50px;
-    margin: 20px 15px;
+    margin: 20px 0 20px 40px;
     cursor: pointer;
 }
 
 header a {
     position: absolute;
-    right: 30px;
-    top: 45px;
+    right: 40px;
+    top: 40px;
     font-size: 16px;
     color: var(--main-color);
     font-weight: 700;
@@ -99,9 +99,9 @@ header button.active {
 
 @media (min-width: 1024px) {
     header ul {
-        margin: 5px;
+        /* margin: 5px; */
         top: 0;
-        right: 10%;
+        right: 180px;
         position: absolute;
         width: 30%
     }
@@ -116,11 +116,6 @@ header button.active {
     header ul li button.active {
         border-top: 2px solid var(--main-color);
     }
-
-
-    /* header a {
-        position: static;
-    } */
 
     /* .buttons-wrapper {
         display: flex;
@@ -137,7 +132,6 @@ header button.active {
         width: 25%
     }
 
-    /* transparent border ????? */
     header ul li button {
         padding-top: 50px;
     }
@@ -145,8 +139,8 @@ header button.active {
     header ul li button.active {}
 
     header a {
-        right: 60px;
-        top: 55px;
+        right: 90px;
+        top: 50px;
     }
 
     /* header a {
@@ -166,12 +160,12 @@ header button.active {
 /*  nav  */
 nav h1 {
     font-size: 22px;
-    margin: 20px 20px 0 20px;
+    margin: 20px 20px 0 40px;
 }
 
 nav p {
     font-size: 16px;
-    margin: 20px
+    margin: 20px 20px 20px 40px
 }
 
 nav .search {
@@ -180,7 +174,7 @@ nav .search {
     height: 50px;
     border: 1px solid var(--bgc);
     border-radius: 15px;
-    margin: 10px 20px;
+    margin: 10px 20px 10px 40px;
     overflow: hidden;
     max-width: 320px
 }
@@ -226,8 +220,9 @@ nav button.search-btn span {
 @media(min-width: 1024px) {
     nav .search {
         max-width: 380px;
-        background-color: var(--main-color);
-        border: none
+        /* background-color: var(--main-color); */
+        border: none;
+
     }
 
     nav .pin {}
@@ -253,6 +248,7 @@ nav button.search-btn span {
         border-radius: 15px;
         color: white;
         font-weight: 700;
+        border-radius: 0 15px 15px 0;
     }
 
     nav button.search-btn span {
@@ -267,13 +263,13 @@ nav button.search-btn span {
 .filters {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 20px 15px 20px
+    margin: 20px 20px 15px 0
 }
 
 .filters h2 {
     flex-basis: 100%;
     font-size: 20px;
-    margin: 20px 10px 15px 20px
+    margin: 20px 10px 15px 40px
 }
 
 @media (min-width: 1024px) {
@@ -283,8 +279,6 @@ nav button.search-btn span {
         margin-right: 50px;
     }
 }
-
-/* ???? ORDER ???? */
 
 .filters .filter {
     display: flex;
@@ -336,7 +330,7 @@ nav button.search-btn span {
 }
 
 nav .info {
-    margin: 20px 20px;
+    margin: 20px 20px 20px 40px;
     font-size: 16px;
     display: flex;
 }
@@ -374,7 +368,7 @@ section.popular .header {
     flex-basis: 10%;
     justify-content: space-between;
     margin-top: 20px;
-    padding: 0 20px 30px 20px;
+    padding: 0 40px 30px 40px;
     font-size: 20px;
 }
 
@@ -499,6 +493,18 @@ section.popular .header i.fas {
     /* .place .wrapper .rating i.fas {
         font-size: 13px;
     } */
+}
+
+@media (min-width: 1024px) {
+    section.popular .header {
+        margin-right: 20px
+    }
+
+    .popular .place {
+        flex-basis: 160px;
+        width: 80%;
+        margin: 15px 40px;
+    }
 }
 
 /* TODO: image proportion */
