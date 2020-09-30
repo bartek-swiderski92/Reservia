@@ -507,8 +507,6 @@ section.popular .header i.fas {
     }
 }
 
-/* TODO: image proportion */
-
 .picture img {
     height: 100%;
     width: 100%;
@@ -527,7 +525,7 @@ section.popular .header i.fas {
 .accommodations .wrapper .place {
     width: 90%;
     height: 200px;
-    margin: 5px auto;
+    margin: 5px 40px;
     background-color: #fff;
     box-shadow: 0 0 5px 0 #aaa;
     border: 6px solid white;
@@ -580,7 +578,7 @@ section.popular .header i.fas {
 
     .accommodations {
         padding: 20px;
-        flex-basis: 65%;
+        flex-basis: 60%;
         background-color: var(--bgc);
         border-radius: 25px;
         justify-content: space-between;
@@ -609,7 +607,6 @@ section.popular .header i.fas {
     }
 
     .accommodations .wrapper .place {
-        flex-basis: 30%;
         background-color: white;
         margin: 10px;
         height: 250px;
@@ -642,7 +639,7 @@ section.popular .header i.fas {
     }
 
     .accommodations>h2 {
-        margin: 25px 10px 10px 15px;
+        margin: 25px 10px 10px 40px;
         font-size: 30px;
     }
 
@@ -660,18 +657,17 @@ section.popular .header i.fas {
     .accommodations .wrapper {
         flex-direction: row;
         flex-wrap: wrap;
-        height: 300px;
+        height: 600px;
+
     }
 
     .accommodations .wrapper .place {
         flex-basis: 30%;
-        background-color: white;
-        margin: 10px;
-        height: 200px;
+        height: 210px;
     }
 
     section.popular {
-        flex-basis: 30%;
+        flex-basis: 35%;
     }
 
     .accommodations .wrapper .place .picture {
