@@ -693,8 +693,13 @@ section.popular .header i.fas {
 }
 
 /* Activities */
+
+.activities {
+    margin: 60px 40px;
+}
+
 .activities h2 {
-    margin: 10px 5%;
+    margin: 0 40px 20px;
 }
 
 .activities-wrap,
@@ -729,7 +734,7 @@ section.popular .header i.fas {
         flex-wrap: wrap;
         height: 900px;
         justify-content: space-between;
-        margin: 20px 40px
+        align-content: space-between;
     }
 
     .activity {
@@ -748,7 +753,7 @@ section.popular .header i.fas {
     .activities .activity {
         /* flex-basis: 50%; */
         width: 22%;
-        margin: 10px;
+        margin: 10px 0;
         overflow: hidden;
     }
 
