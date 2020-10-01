@@ -360,7 +360,6 @@ section.popular {
     display: flex;
     flex-direction: column;
     background-color: var(--bgc);
-    padding: 20px 0 50px 0;
     margin-right: 40px;
 }
 
@@ -368,8 +367,8 @@ section.popular .header {
     display: flex;
     flex-basis: 10%;
     justify-content: space-between;
-    margin-top: 20px;
-    padding: 0 40px 30px 40px;
+    margin-top: 50px;
+    padding: 0 40px 0 40px;
     font-size: 20px;
 }
 
@@ -505,7 +504,7 @@ section.popular .header i.fas {
     .popular .place {
         flex-basis: 160px;
         width: 80%;
-        margin: 15px 40px;
+        margin: 0 40px;
     }
 }
 
@@ -566,7 +565,7 @@ section.popular .header i.fas {
 
 .accommodations a {
     font-weight: 700;
-    margin: 35px 5% 20px;
+    margin: 0px 40px 40px;
     font-size: 18px;
 }
 
@@ -610,14 +609,14 @@ section.popular .header i.fas {
 
     .accommodations .wrapper .place {
         background-color: white;
-        margin: 10px 0;
+        margin: 0;
         height: 250px;
     }
 
     section.popular {
         flex-basis: 30%;
         border-radius: 25px;
-        justify-content: space-between;
+        /* justify-content: start; */
     }
 
     .accommodations .wrapper .place .picture {
@@ -639,7 +638,7 @@ section.popular .header i.fas {
     .accommodations {}
 
     .accommodations>h2 {
-        margin: 25px 10px 10px 40px;
+        margin: 50px 10px 40px 40px;
         font-size: 30px;
     }
 
@@ -657,7 +656,7 @@ section.popular .header i.fas {
     .accommodations .wrapper {
         flex-direction: row;
         flex-wrap: wrap;
-        height: 600px;
+        height: 500px;
         margin-left: 40px;
         margin-right: 40px;
 
