@@ -576,12 +576,11 @@ section.popular .header i.fas {
     .visits {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .accommodations {
-        padding: 20px;
-        flex-basis: 60%;
+        flex-basis: 55%;
         background-color: var(--bgc);
         border-radius: 25px;
         justify-content: space-between;
@@ -611,7 +610,7 @@ section.popular .header i.fas {
 
     .accommodations .wrapper .place {
         background-color: white;
-        margin: 10px;
+        margin: 10px 0;
         height: 250px;
     }
 
@@ -637,9 +636,7 @@ section.popular .header i.fas {
 @media (min-width:1440px) {
 
 
-    .accommodations {
-        padding: 20px;
-    }
+    .accommodations {}
 
     .accommodations>h2 {
         margin: 25px 10px 10px 40px;
