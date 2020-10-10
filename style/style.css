@@ -365,7 +365,6 @@ section.popular {
 
 section.popular .header {
     display: flex;
-    flex-basis: 10%;
     justify-content: space-between;
     margin-top: 50px;
     padding: 0 40px 0 40px;
@@ -400,12 +399,12 @@ section.popular .header i.fas {
 }
 
 .place .wrapper {
+    position: relative;
     flex-basis: 60%;
     height: 100%;
     margin: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 .place .wrapper h2 {
@@ -419,6 +418,24 @@ section.popular .header i.fas {
 
 .place .wrapper h3 .price {
     font-weight: 700;
+}
+
+.popular .place .wrapper h2 {
+    margin-left: 10px;
+}
+
+.popular .place .wrapper h3 {
+    margin-left: 10px;
+    position: absolute;
+    top: 33%;
+}
+
+.popular .place .wrapper .rating {
+    height: 25px;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 10px;
+
 }
 
 .place .wrapper .rating i.fas {
@@ -502,9 +519,9 @@ section.popular .header i.fas {
     }
 
     .popular .place {
-        flex-basis: 160px;
+        flex-basis: 150px;
         width: 80%;
-        margin: 0 40px;
+        margin: 20px 40px;
     }
 }
 
