@@ -498,7 +498,7 @@ section.popular .header i.fas {
 @media (min-width: 375px) {
     .popular .place {
         flex-basis: 140px;
-        width: 90%;
+        width: calc(100% - 40px);
     }
 
 
@@ -644,12 +644,14 @@ section.popular .header i.fas {
 
     .accommodations .wrapper .place {
         height: 300px;
-        width: 45%;
+        width: 47%;
+        margin: 5px 30px 10px 0;
+
     }
 }
 
 .accommodations .wrapper .place .picture {
-    height: 60%;
+    height: 180px;
 }
 
 .accommodations .wrapper .place .wrapper {
@@ -836,7 +838,7 @@ section.popular .header i.fas {
     }
 
     .activity {
-        width: 45%;
+        width: 48%;
         height: 260px;
     }
 }
