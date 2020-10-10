@@ -128,6 +128,10 @@ header button.active {
         border-top: 3px solid var(--main-color);
     }
 
+    header a.sign-up {
+        right: 40px
+    }
+
     /* .buttons-wrapper {
         display: flex;
         position: absolute;
@@ -301,10 +305,12 @@ nav button.search-btn span {
 }
 
 @media (min-width: 1024px) {
+    .filters {
+        margin: 20px 20px 15px 40px
+    }
 
     .filters h2 {
         flex-basis: auto;
-        margin: 20px 10px 15px 40px
     }
 }
 
@@ -581,12 +587,13 @@ section.popular .header i.fas {
 
 @media (min-width: 1024px) {
     section.popular .header {
-        margin-right: 20px
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
     .popular .place {
         flex-basis: 150px;
-        width: 80%;
+        width: calc(100% - 80px);
         margin: 20px 40px;
     }
 }
@@ -608,7 +615,7 @@ section.popular .header i.fas {
 
 .accommodations {
     margin-left: 20px;
-
+    margin-right: 20px;
 }
 
 .accommodations .wrapper .place {
@@ -640,12 +647,25 @@ section.popular .header i.fas {
         height: 1000px;
         flex-wrap: wrap;
         justify-content: space-between;
+        align-content: space-between;
     }
 
     .accommodations .wrapper .place {
         height: 300px;
         width: 47%;
         margin: 5px 30px 10px 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .accommodations {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .accommodations .wrapper .place {
+        width: 48%;
+        margin: 0 0 10px 0;
 
     }
 }
@@ -843,6 +863,12 @@ section.popular .header i.fas {
     }
 }
 
+@media (min-width: 1024px) {
+    .activities {
+        margin: 60px 40px;
+    }
+}
+
 @media (min-width: 1280px) {
     .activities h2 {}
 
@@ -906,6 +932,7 @@ footer .footer-section {
 
 footer ul {
     flex-direction: column;
+}
 }
 
 .footer-section ul li a {
