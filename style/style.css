@@ -73,6 +73,12 @@ li {
     flex-basis: 50%;
 }
 
+@media (min-width: 375px) {
+    header img {
+        margin: 20px 0 20px 20px;
+    }
+}
+
 /* li:nth-last-of-type(3) { */
 /* flex-basis: 0; */
 /* width: 0; */
@@ -90,7 +96,7 @@ header ul li a button {
     border: none;
     font-size: 16px;
     padding-bottom: 10px;
-    border-bottom: 2px solid var(--bgc);
+    border-bottom: 3px solid var(--bgc);
 
 }
 
@@ -115,11 +121,11 @@ header button.active {
     header ul li a button {
         padding-top: 40px;
         border: none;
-        border-top: 2px solid transparent;
+        border-top: 3px solid transparent;
     }
 
     header ul li a button.active {
-        border-top: 2px solid var(--main-color);
+        border-top: 3px solid var(--main-color);
     }
 
     /* .buttons-wrapper {
@@ -198,10 +204,18 @@ nav input {
     content: "Mareseille, France";
     font-size: 12px;
     font-weight: 700;
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 375px) {
+    nav h1 {
+        margin: 30px 20px 0 20px;
+    }
+
+    nav p {
+        margin: 10px 20px 30px 20px
+    }
+
     nav input {
         font-size: 16px;
     }
@@ -401,6 +415,12 @@ section.popular .header i.fas {
     line-height: 40px;
 }
 
+@media (min-width: 375px) {
+    section.popular .header {
+        padding: 0 20px 10px 20px;
+    }
+}
+
 /* place styling */
 
 .popular .place {
@@ -468,10 +488,31 @@ section.popular .header i.fas {
     color: var(--bgc);
     margin-bottom: 20px;
     align-self: flex-end;
+    letter-spacing: -3px;
 }
 
 .place .wrapper .rating i.fas.active {
     color: var(--main-color);
+}
+
+@media (min-width: 375px) {
+    .popular .place {
+        flex-basis: 140px;
+        width: 90%;
+    }
+
+
+    .place .wrapper {
+        height: 132px;
+    }
+
+    .place .wrapper h2 {
+        font-size: 16px;
+    }
+
+    .place .wrapper h3 {
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 414px) {
@@ -586,6 +627,13 @@ section.popular .header i.fas {
     font-size: 20px;
 }
 
+
+@media (min-width: 375px) {
+    .accommodations>h2 {
+        font-size: 22px;
+
+    }
+}
 
 @media (min-width: 568px) {
     .accommodations .wrapper {
@@ -860,6 +908,13 @@ footer ul {
 
 .footer-section ul li a {
     margin: 5px 0
+}
+
+@media (min-width: 375px) {
+    footer .footer-section {
+        margin: 20px
+    }
+
 }
 
 @media (min-width: 667px) {
