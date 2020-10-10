@@ -297,7 +297,7 @@ nav button.search-btn span {
 .filters .filter {
     display: flex;
     border: 2px solid var(--bgc);
-    margin: 10px 0 5px 0;
+    margin: 10px 20px 5px 0;
     background-color: #fff;
     height: 50px;
     line-height: 25px;
