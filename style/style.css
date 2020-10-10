@@ -47,9 +47,11 @@ body {
 
 
 /* header */
+
+
 header img {
     height: 50px;
-    margin: 50px 0 10px 40px;
+    margin: 20px 0 10px 20px;
     cursor: pointer;
 }
 
@@ -98,12 +100,17 @@ header button.active {
 }
 
 @media (min-width: 1024px) {
+    header img {
+        margin: 50px 0 10px 40px;
+    }
+
     header ul {
         top: 0;
         right: 180px;
         position: absolute;
         width: 30%
     }
+
 
     header ul li a button {
         padding-top: 40px;
@@ -158,12 +165,12 @@ header button.active {
 /*  nav  */
 nav h1 {
     font-size: 22px;
-    margin: 20px 20px 0 40px;
+    margin: 20px 20px 0 20px;
 }
 
 nav p {
     font-size: 16px;
-    margin: 10px 20px 20px 40px
+    margin: 10px 20px 20px 20px
 }
 
 nav .search {
@@ -172,7 +179,7 @@ nav .search {
     height: 50px;
     border: 1px solid var(--bgc);
     border-radius: 15px;
-    margin: 10px 20px 10px 40px;
+    margin: 10px 20px 10px 20px;
     overflow: hidden;
     max-width: 320px
 }
@@ -192,7 +199,6 @@ nav input {
     font-size: 12px;
     font-weight: 700;
     margin-left: 15px;
-
 }
 
 @media (min-width: 360px) {
@@ -218,9 +224,15 @@ nav button.search-btn span {
 @media(min-width: 1024px) {
     nav .search {
         max-width: 380px;
-        /* background-color: var(--main-color); */
         border: none;
+    }
 
+    nav h1 {
+        margin: 20px 20px 0 40px;
+    }
+
+    nav p {
+        margin: 10px 20px 20px 40px
     }
 
     nav .pin {}
@@ -232,6 +244,10 @@ nav button.search-btn span {
         padding-left: 15px;
         border: 1px solid var(--bgc);
 
+    }
+
+    nav .search {
+        margin: 10px 20px 10px 40px;
     }
 
     nav button.search-btn i.fas {
@@ -261,27 +277,27 @@ nav button.search-btn span {
 .filters {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 20px 15px 0
+    margin: 20px 20px 15px 20px
 }
 
 .filters h2 {
     flex-basis: 100%;
     font-size: 20px;
-    margin: 20px 10px 15px 40px
+    margin: 20px 10px 15px 0
 }
 
 @media (min-width: 1024px) {
 
     .filters h2 {
         flex-basis: auto;
-        margin-right: 50px;
+        margin: 20px 10px 15px 40px
     }
 }
 
 .filters .filter {
     display: flex;
     border: 2px solid var(--bgc);
-    margin: 10px;
+    margin: 10px 0 5px 20px;
     background-color: #fff;
     height: 50px;
     line-height: 25px;
@@ -328,7 +344,7 @@ nav button.search-btn span {
 }
 
 nav .info {
-    margin: 20px 20px 20px 40px;
+    margin: 20px 20px 40px 20px;
     font-size: 16px;
     display: flex;
 }
@@ -349,6 +365,14 @@ nav .info i.fas {
     margin-right: 20px;
 }
 
+@media (min-width: 1024px) {
+    nav .info {
+        margin: 20px 20px 20px 40px;
+        font-size: 16px;
+        display: flex;
+    }
+}
+
 /* section visits  */
 
 
@@ -358,7 +382,7 @@ section.popular {
     display: flex;
     flex-direction: column;
     background-color: var(--bgc);
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 section.popular .header {
