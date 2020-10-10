@@ -827,12 +827,18 @@ footer ul {
     flex-direction: column;
 }
 
+.footer-section ul li a {
+    margin: 5px 0
+}
+
 @media (min-width: 667px) {
     footer {
         flex-direction: row;
         flex-wrap: wrap;
         /* justify-content: center; */
     }
+
+
 
     footer .footer-section {
         margin: 20px 40px;
