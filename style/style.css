@@ -578,6 +578,10 @@ section.popular .header i.fas {
         justify-content: space-between;
     }
 
+    .visits .popular .header h2 {
+        font-size: 22px;
+    }
+
     .accommodations {
         flex-basis: 62%;
         background-color: var(--bgc);
@@ -587,8 +591,10 @@ section.popular .header i.fas {
 
     .accommodations>h2 {
         margin: 5px 10px 10px 5px;
-        font-size: 30px;
+        font-size: 22px;
     }
+
+
 
     .place .wrapper .rating i.fas {
         /* margin-bottom: 10px; */
@@ -639,7 +645,6 @@ section.popular .header i.fas {
 
     .accommodations>h2 {
         margin: 50px 10px 40px 40px;
-        font-size: 30px;
     }
 
     .place .wrapper .rating i.fas {
