@@ -36,7 +36,6 @@ button {
     max-width: 1440px;
     margin: 0 auto 20px;
     background-color: #fff;
-    /* border: 1px solid #ccc; */
     border-radius: 15px;
     overflow: hidden;
 }
@@ -45,9 +44,7 @@ body {
     background-color: #ddd;
 }
 
-
 /* header */
-
 
 header img {
     height: 50px;
@@ -79,16 +76,6 @@ li {
     }
 }
 
-/* li:nth-last-of-type(3) { */
-/* flex-basis: 0; */
-/* width: 0; */
-/* flex-basis: 50%; */
-/* } */
-
-/* header .buttons {
-    display: flex;
-} */
-
 header ul li a button {
     display: inline-block;
     background-color: transparent;
@@ -97,7 +84,6 @@ header ul li a button {
     font-size: 16px;
     padding-bottom: 10px;
     border-bottom: 3px solid var(--bgc);
-
 }
 
 header button.active {
@@ -117,10 +103,8 @@ header button.active {
         width: 30%
     }
 
-
     header ul li a button {
         padding-top: 40px;
-        border: none;
         border-top: 3px solid transparent;
     }
 
@@ -132,14 +116,6 @@ header button.active {
         right: 40px
     }
 
-    /* .buttons-wrapper {
-        display: flex;
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 50%;
-        justify-content: space-around;
-    } */
 }
 
 @media (min-width: 1280px) {
@@ -151,25 +127,11 @@ header button.active {
         padding-top: 50px;
     }
 
-    header ul li button.active {}
-
     header a.sign-up {
         right: 90px;
         top: 50px;
     }
 
-    /* header a {
-        position: static;
-    } */
-
-    /* .buttons-wrapper {
-        display: flex;
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 50%;
-        justify-content: space-around;
-    } */
 }
 
 /*  nav  */
@@ -253,15 +215,11 @@ nav button.search-btn span {
         margin: 10px 20px 20px 40px
     }
 
-    nav .pin {}
-
-    /* blue lines on pin button ????? */
     nav input {
         flex-basis: 100%;
         margin: 0;
         padding-left: 15px;
         border: 1px solid var(--bgc);
-
     }
 
     nav .search {
@@ -325,13 +283,11 @@ nav button.search-btn span {
     text-align: center;
     border-radius: 50px;
     transition: .3s;
-
 }
 
 .filters .filter:hover {
     background-color: var(--secondary-color);
     border: 2px solid var(--main-color);
-
 }
 
 .filters .filter p {
@@ -339,7 +295,6 @@ nav button.search-btn span {
     margin: 0;
     padding: 10px 10px 0 10px;
     transition: .3s;
-
 }
 
 .filters .filter:hover p {
@@ -388,13 +343,10 @@ nav .info i.fas {
 @media (min-width: 1024px) {
     nav .info {
         margin: 20px 20px 20px 40px;
-        font-size: 16px;
-        display: flex;
     }
 }
 
 /* section visits  */
-
 
 /* sub-section popular */
 
@@ -475,31 +427,18 @@ section.popular .header i.fas {
     margin-left: 10px;
 }
 
-.popular .place .wrapper h3 {
-    margin-left: 10px;
-    position: absolute;
-    top: 33%;
-}
 .wrapper h3{
     position: absolute;
     top: 33%
+}
+.popular .place .wrapper h3 {
+    margin-left: 10px;
 }
 .rating {
     height: 25px;
     position: absolute;
     bottom: 10px;
-    /* margin-left: 10px; */
     left: 10px
-}
-
-@media (min-width: 414px){
-    .rating {
-        bottom: -8px;
-    }
-}@media (min-width: 1024px){
-    .rating {
-        bottom: 0px;
-    }
 }
 
 .accommodations .place .wrapper .rating {
@@ -524,7 +463,6 @@ section.popular .header i.fas {
         width: calc(100% - 40px);
     }
 
-
     .place .wrapper {
         height: 132px;
     }
@@ -544,62 +482,10 @@ section.popular .header i.fas {
         flex-basis: 160px;
     }
 
-    .place .wrapper h2 {
-        font-size: 16px;
+    .rating {
+        bottom: -8px;
     }
-
-    .place .wrapper h3 {
-        font-size: 14px;
-    }
-}
-
-@media (min-width: 568px) {
-
-    /* .popular .place {
-        flex-basis: 140px;
-    } */
-
-    /* .place .wrapper h2 {
-        font-size: 16px;
-    }
-
-    .place .wrapper h3 {
-        font-size: 14px;
-    } */
-}
-
-@media (min-width: 667px) {
-
-    /* .popular .place {
-        flex-basis: 140px;
-    } */
-
-    /* .place .wrapper h2 {
-        font-size: 16x;
-    } */
-
-    /* .place .wrapper h3 {
-        font-size: 14px;
-    } */
-}
-
-@media (min-width: 800px) {
-
-    /* .popular .place {
-        flex-basis: 160px;
-    } */
-
-    /* .place .wrapper h2 {
-        font-size: 16px;
-    } */
-    /* 
-    .place .wrapper h3 {
-        font-size: 16px;
-    } */
-
-    /* .place .wrapper .rating i.fas {
-        font-size: 13px;
-    } */
+    
 }
 
 @media (min-width: 1024px) {
@@ -612,6 +498,9 @@ section.popular .header i.fas {
         flex-basis: 150px;
         width: calc(100% - 80px);
         margin: 20px 40px;
+    }
+    .rating {
+        bottom: 0px;
     }
 }
 
@@ -672,7 +561,6 @@ section.popular .header i.fas {
     .accommodations .wrapper .place {
         height: 300px;
         width: 47%;
-        
     }
     .accommodations .wrapper .place .picture {
         height: 190px;
@@ -688,13 +576,8 @@ section.popular .header i.fas {
     .accommodations .wrapper .place {
         width: 48%;
         margin: 0 0 10px 0;
-
     }
 }
-
-
-
-
 
 .accommodations .wrapper .place .wrapper {
     background-color: #fff;
@@ -729,19 +612,7 @@ section.popular .header i.fas {
 
     .accommodations>h2 {
         margin: 5px 10px 10px 5px;
-        font-size: 22px;
     }
-
-
-
-    .place .wrapper .rating i.fas {
-        /* margin-bottom: 10px; */
-    }
-
-    .place .wrapper h3 {
-        /* margin-bottom: 10px; */
-    }
-
 
     .accommodations {
         padding: 40px;
@@ -763,7 +634,6 @@ section.popular .header i.fas {
     section.popular {
         flex-basis: 30%;
         border-radius: 25px;
-        /* justify-content: start; */
         margin-right: 40px;
     }
 
@@ -781,29 +651,10 @@ section.popular .header i.fas {
 }
 
 @media (min-width:1440px) {
-
-
-    .accommodations {}
-
-    .accommodations>h2 {}
-
-    .place .wrapper .rating i.fas {
-        /* margin-bottom: 10px; */
-    }
-
-    .place .wrapper h3 {
-        /* margin-bottom: 10px; */
-    }
-
-
-    .accommodations {}
-
     .accommodations .wrapper {
         flex-direction: row;
         flex-wrap: wrap;
         height: 500px;
-        /* margin-left: 40px; */
-        /* margin-right: 40px; */
     }
 
     .accommodations .wrapper .place {
@@ -894,14 +745,11 @@ section.popular .header i.fas {
 }
 
 @media (min-width: 1280px) {
-    .activities h2 {}
-
     .activities-wrap {
         height: 500px;
     }
 
     .activities .activity {
-        /* flex-basis: 50%; */
         width: 22%;
         margin: 10px 0;
         overflow: hidden;
@@ -958,29 +806,23 @@ footer ul {
     flex-direction: column;
 }
 
-
 .footer-section ul li a {
-    margin: 5px 0
+    margin: 5px 0;
 }
 
 @media (min-width: 375px) {
     footer .footer-section {
         margin: 20px
     }
-
 }
 
 @media (min-width: 667px) {
     footer {
         flex-direction: row;
         flex-wrap: wrap;
-        /* justify-content: center; */
     }
-
-
 
     footer .footer-section {
         margin: 20px 40px;
     }
-
 }
