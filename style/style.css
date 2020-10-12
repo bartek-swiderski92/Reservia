@@ -112,13 +112,11 @@ header button.active {
     header ul li a button.active {
         border: none;
         border-top: 3px solid var(--main-color);
-
     }
 
     header a.sign-up {
         right: 40px
     }
-
 }
 
 @media (min-width: 1280px) {
@@ -134,7 +132,6 @@ header button.active {
         right: 90px;
         top: 50px;
     }
-
 }
 
 /*  nav  */
@@ -163,7 +160,7 @@ nav .pin {
     background-color: var(--bgc);
     line-height: 50px;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     min-width: 50px;
     height: 50px;
 }
