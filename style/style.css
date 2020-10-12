@@ -105,11 +105,14 @@ header button.active {
 
     header ul li a button {
         padding-top: 40px;
+        border: none;
         border-top: 3px solid transparent;
     }
 
     header ul li a button.active {
+        border: none;
         border-top: 3px solid var(--main-color);
+
     }
 
     header a.sign-up {
