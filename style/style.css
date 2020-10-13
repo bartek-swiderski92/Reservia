@@ -235,6 +235,7 @@ nav button.search-btn span {
     nav button.search-btn {
         width: auto;
         height: 50px;
+        padding-left: 5px;
         font-size: 20px;
         border: none;
         border-radius: 15px;
