@@ -19,6 +19,7 @@ a {
     display: block;
     text-decoration: none;
     color: black;
+    text-align: center;
 }
 
 ul {
@@ -61,6 +62,7 @@ header a.sign-up {
     font-size: 16px;
     color: var(--main-color);
     font-weight: 700;
+    text-align: left;
 }
 
 ul {
@@ -78,7 +80,16 @@ li {
     }
 }
 
-header ul li a button {
+/* header ul li a button {
+    display: inline-block;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--bgc);
+} */
+header ul li a {
     display: inline-block;
     background-color: transparent;
     width: 100%;
@@ -88,7 +99,12 @@ header ul li a button {
     border-bottom: 3px solid var(--bgc);
 }
 
-header button.active {
+header a.active {
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+header a button.active {
     color: var(--main-color);
     border-color: var(--main-color);
 }
@@ -105,19 +121,30 @@ header button.active {
         width: 30%
     }
 
-    header ul li a button {
+    header ul li a {
         padding-top: 40px;
         border: none;
         border-top: 3px solid transparent;
     }
 
-    header ul li a button.active {
+    header ul li a.active {
         border: none;
         border-top: 3px solid var(--main-color);
     }
 
+    header ul li a {
+        padding-top: 40px;
+        border: none;
+        border-top: 3px solid transparent;
+    }
+
+    /* header ul li a button.active {
+        border: none;
+        border-top: 3px solid var(--main-color);
+    }*/
+
     header a.sign-up {
-        right: 40px
+        right: 80px
     }
 }
 
@@ -132,7 +159,7 @@ header button.active {
 
     header a.sign-up {
         right: 90px;
-        top: 50px;
+        /* top: 50px; */
     }
 }
 
