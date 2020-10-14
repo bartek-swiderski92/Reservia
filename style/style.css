@@ -80,15 +80,6 @@ li {
     }
 }
 
-/* header ul li a button {
-    display: inline-block;
-    background-color: transparent;
-    width: 100%;
-    border: none;
-    font-size: 16px;
-    padding-bottom: 10px;
-    border-bottom: 3px solid var(--bgc);
-} */
 header ul li a {
     display: inline-block;
     background-color: transparent;
@@ -138,11 +129,6 @@ header a button.active {
         border-top: 3px solid transparent;
     }
 
-    /* header ul li a button.active {
-        border: none;
-        border-top: 3px solid var(--main-color);
-    }*/
-
     header a.sign-up {
         right: 80px
     }
@@ -159,7 +145,6 @@ header a button.active {
 
     header a.sign-up {
         right: 90px;
-        /* top: 50px; */
     }
 }
 
@@ -169,12 +154,6 @@ nav h1 {
     margin: 20px 20px 0 20px;
 }
 
-/* nav p {
-    font-size: 16px;
-    margin: 10px 20px 20px 20px
-} */
-
-nav p,
 nav span.txt-filter {
     font-size: 16px;
     margin: 10px 20px 20px 20px
@@ -213,11 +192,6 @@ nav input {
         margin: 30px 20px 0 20px;
     }
 
-    /* nav p {
-        margin: 10px 20px 30px 20px
-    } */
-
-    nav p,
     .filters .filter span.txt-filter {
         margin: 10px 20px 30px 20px
     }
@@ -251,11 +225,6 @@ nav button.search-btn span {
         margin: 20px 20px 0 40px;
     }
 
-    /* nav p {
-        margin: 10px 20px 20px 40px
-    } */
-
-    nav p,
     nav span.txt-filter {
         margin: 10px 20px 20px 40px
     }
@@ -336,18 +305,6 @@ nav button.search-btn span {
     border: 2px solid var(--main-color);
 }
 
-/* .filters .filter p {
-    font-size: 14px;
-    margin: 0;
-    padding: 10px 10px 0 10px;
-    transition: .3s;
-}
-
-.filters .filter:hover p {
-    color: var(--main-color);
-} */
-
-.filters .filter p,
 .filters .filter span.txt-filter {
     font-size: 14px;
     margin: 0;
@@ -355,7 +312,6 @@ nav button.search-btn span {
     transition: .3s;
 }
 
-.filters .filter:hover p,
 .filters .filter:hover span.txt-filter {
     color: var(--main-color);
 }
