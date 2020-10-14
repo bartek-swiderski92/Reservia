@@ -154,6 +154,10 @@ nav h1 {
     margin: 20px 20px 0 20px;
 }
 
+nav p {
+    margin: 15px 20px 30px;
+}
+
 nav span.txt-filter {
     font-size: 16px;
     margin: 10px 20px 20px 20px
@@ -223,6 +227,10 @@ nav button.search-btn span {
 
     nav h1 {
         margin: 20px 20px 0 40px;
+    }
+
+    nav p {
+        margin: 10px 40px 20px;
     }
 
     nav span.txt-filter {
