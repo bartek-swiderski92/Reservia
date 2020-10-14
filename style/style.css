@@ -169,7 +169,13 @@ nav h1 {
     margin: 20px 20px 0 20px;
 }
 
-nav p {
+/* nav p {
+    font-size: 16px;
+    margin: 10px 20px 20px 20px
+} */
+
+nav p,
+nav span.txt-filter {
     font-size: 16px;
     margin: 10px 20px 20px 20px
 }
@@ -207,7 +213,12 @@ nav input {
         margin: 30px 20px 0 20px;
     }
 
-    nav p {
+    /* nav p {
+        margin: 10px 20px 30px 20px
+    } */
+
+    nav p,
+    .filters .filter span.txt-filter {
         margin: 10px 20px 30px 20px
     }
 
@@ -240,7 +251,12 @@ nav button.search-btn span {
         margin: 20px 20px 0 40px;
     }
 
-    nav p {
+    /* nav p {
+        margin: 10px 20px 20px 40px
+    } */
+
+    nav p,
+    nav span.txt-filter {
         margin: 10px 20px 20px 40px
     }
 
@@ -320,7 +336,7 @@ nav button.search-btn span {
     border: 2px solid var(--main-color);
 }
 
-.filters .filter p {
+/* .filters .filter p {
     font-size: 14px;
     margin: 0;
     padding: 10px 10px 0 10px;
@@ -328,6 +344,19 @@ nav button.search-btn span {
 }
 
 .filters .filter:hover p {
+    color: var(--main-color);
+} */
+
+.filters .filter p,
+.filters .filter span.txt-filter {
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 10px 0 10px;
+    transition: .3s;
+}
+
+.filters .filter:hover p,
+.filters .filter:hover span.txt-filter {
     color: var(--main-color);
 }
 
