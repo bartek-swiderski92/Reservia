@@ -5,7 +5,7 @@
 Practical projects demonstrating basic HTML and CSS skills. No JS or frameworks included.
 
 The project is based on following guidelines:
-<br>
+
 <br>
 
  _Hello!_  
@@ -30,7 +30,7 @@ _Have a nice day!_
 
 ___
 
-## The website was based on on bellow mockups:
+## The website was based on on following mockups:
 
 
 * ### [Destkop](https://raw.githubusercontent.com/phos23/BartoszSwiderski_2_09262020_A/master/mockups/Desktop%20-%201.png)
