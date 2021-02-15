@@ -1,5 +1,5 @@
-![image](https://raw.githubusercontent.com/phos23/BartoszSwiderski_2_09262020_A/2e20809c3ea43d4cdeb60c679d83d1ec4cd53ca1/images/logo/Reservia.svg)
 # **Second project in Web Developer path on OpenClassrooms** 
+![image](https://raw.githubusercontent.com/phos23/BartoszSwiderski_2_09262020_A/2e20809c3ea43d4cdeb60c679d83d1ec4cd53ca1/images/logo/Reservia.svg)
 
 ## **Practical project demonstrating basic HTML and CSS skills. No JS or frameworks included.**
 A single page, responsive website ranging from small mobile phones to desktop devices. The website uses only simple animations and it doesn't use javaScript.
