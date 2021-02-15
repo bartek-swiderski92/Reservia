@@ -32,7 +32,7 @@ ___
 _To: Me_  
 _CC: Loïc_  
 _Subject : RE - Reservia mock-up integration_  
-_>__
+>___
 >_Hello,_  
 >
 >_I hope that the first elements shared by Loïc are clear to you! As this is your first project with us and you're interning, I wanted to give you a little more guidance:_  
