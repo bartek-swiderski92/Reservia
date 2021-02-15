@@ -2,6 +2,7 @@
 # **Second project in Web Developer path on OpenClassrooms** 
 
 ## **Practical project demonstrating basic HTML and CSS skills. No JS or frameworks included.**
+A single page, responsive website ranging from small mobile phones to desktop devices. The website uses only simple animations and it doesn't use javaScript.
 
 ### The project is based on below scenario:
 
