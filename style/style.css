@@ -836,6 +836,7 @@ footer ul {
 }
 
 .footer-section ul li a {
+    display: inline;
     margin: 5px 0;
 }
 
