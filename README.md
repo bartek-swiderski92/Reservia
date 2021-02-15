@@ -27,10 +27,8 @@
 >_If you have any questions, do not hesitate to write to me._
 >
 >_Have a nice day!_
-<br>
-<br>
+
 ___
-<br>
 
 >_From: Sarah_  
 _To: Me_  
