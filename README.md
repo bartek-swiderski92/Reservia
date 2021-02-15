@@ -1,9 +1,8 @@
-# BartoszSwiderski_2_09262020_A-
-## Second Project in web developer path
+# **Second Project in web developer path**
 
-### Practical projects demonstrating basic HTML and CSS skills. No JS or frameworks included.
+## **Practical projects demonstrating basic HTML and CSS skills. No JS or frameworks included.**
 
-## The project is based on below scenario:
+### The project is based on below scenario:
 
 
 _From:  Loïc_  
@@ -62,12 +61,12 @@ _Sarah_
 
 _CTO_  
 ___
-## The website was based on on following mockups:
+### The website was based on on following mockups:
 
 
-* ### [Destkop](https://raw.githubusercontent.com/phos23/BartoszSwiderski_2_09262020_A/master/mockups/Desktop%20-%201.png)
+*  [Destkop](https://raw.githubusercontent.com/phos23/BartoszSwiderski_2_09262020_A/master/mockups/Desktop%20-%201.png)
 
 
-* ### [Mobile](https://raw.githubusercontent.com/phos23/BartoszSwiderski_2_09262020_A/master/mockups/iPhone%208%20-%201.png)
+*  [Mobile](https://raw.githubusercontent.com/phos23/BartoszSwiderski_2_09262020_A/master/mockups/iPhone%208%20-%201.png)
 
 <a href="https://phos23.github.io/BartoszSwiderski_2_09262020_A/#">Click here to see the preview of the website</a>
