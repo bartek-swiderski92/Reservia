@@ -1,11 +1,11 @@
 # BartoszSwiderski_2_09262020_A-
 ## Second Project in web developer path
-___
+
 ### Practical projects demonstrating basic HTML and CSS skills. No JS or frameworks included.
 
 ## The project is based on below scenario:
 
-___
+
 _From:  Loïc_  
 _To: Me_     
 _CC: Sarah (CTO)_  
