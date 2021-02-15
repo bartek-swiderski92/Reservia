@@ -1,6 +1,6 @@
-# **Second Project in web developer path**
+# **Second project in Web Developer path on OpenClassrooms**
 
-## **Practical projects demonstrating basic HTML and CSS skills. No JS or frameworks included.**
+## **Practical project demonstrating basic HTML and CSS skills. No JS or frameworks included.**
 
 ### The project is based on below scenario:
 
