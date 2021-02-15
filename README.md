@@ -1,13 +1,16 @@
 # BartoszSwiderski_2_09262020_A-
 ## Second Project in web developer path
-<br>
-<br>
-Practical projects demonstrating basic HTML and CSS skills. No JS or frameworks included.
+___
+### Practical projects demonstrating basic HTML and CSS skills. No JS or frameworks included.
 
-The project is based on following guidelines:
+## The project is based on below scenario:
 
-<br>
-
+___
+_From:  Loïc_  
+_To: Me_     
+_CC: Sarah (CTO)_  
+_Subject : Reservia mock-up integration_  
+___
  _Hello!_  
  _I'm sending you the new desktop and mobile mock-ups of the Reservia website. The folder also includes the images. Here are some details that will be useful for integration._  
  **_Features_**
@@ -26,10 +29,39 @@ The project is based on following guidelines:
 _If you have any questions, do not hesitate to write to me._
 
 _Have a nice day!_
-<br>
-
 ___
+___
+_From: Sarah_  
+_To: Me_  
+_CC: Loïc_  
+_Subject : RE - Reservia mock-up integration_  
+___
+_Hello,_  
 
+_I hope that the first elements shared by Loïc are clear to you! As this is your first project with us and you're interning, I wanted to give you a little more guidance:_  
+
+
+_Don't use a framework or a pre-compiler for this project (like SASS for instance): since you are just starting out, I prefer that  you sharpen your skills using HTML and CSS and learn to code from scratch. We want to test your skills on that!_  
+
+_I recommend using Visual Studio Code. The plugins can make your life easier (for example, Live Server or Prettier)._  
+    You can integrate Font Awesome icons in HTML or CSS. I strongly advise you to use Flexbox, but you can also use CSS Grid if you want._  
+
+_Your code will have to use semantic tags and not contain any errors or warnings when running it through the W3C HTML and CSS validator._  
+
+_The site should be compatible with the latest versions of Chrome and Firefox._  
+
+_Remember to separate HTML and CSS and to organize your folders accordingly._  
+
+_Don't forget to version your code with Git from the beginning! It will help your team track your work. We use GitKraken as a Git client, it's nicer than the command line, but you can you use whatever you want. And then you need to deploy the page on GitHub Pages or GitLab Pages (your choice which one)._  
+
+ 
+
+_Have a great day!_  
+
+_Sarah_  
+
+_CTO_  
+___
 ## The website was based on on following mockups:
 
 
