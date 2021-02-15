@@ -1,5 +1,5 @@
 # BartoszSwiderski_2_09262020_A-
-**Second Project in web developer path**
+## Second Project in web developer path
 <br>
 <br>
 Practical projects demonstrating basic HTML and CSS skills. No JS or frameworks included.
