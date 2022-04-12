@@ -79,4 +79,4 @@ _Subject : RE - Reservia mock-up integration_
 
 *  [Mobile](https://raw.githubusercontent.com/phos23/BartoszSwiderski_2_09262020_A/master/mockups/iPhone%208%20-%201.png)
 
-<a href="hhttps://bartek-swiderski92.github.io/Reservia/>Click here to see the preview of the website</a>
+<a href="https://bartek-swiderski92.github.io/Reservia/>Click here to see the preview of the website</a>
