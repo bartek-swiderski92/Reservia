@@ -3,8 +3,23 @@
 ## **Turn Mock-ups Into a Web Page**
 <br> 
 
-[![image](https://raw.githubusercontent.com/phos23/BartoszSwiderski_2_09262020_A/2e20809c3ea43d4cdeb60c679d83d1ec4cd53ca1/images/logo/Reservia.svg)](https://phos23.github.io/BartoszSwiderski_2_09262020_A/#)
-<br> 
+[![image](https://raw.githubusercontent.com/phos23/BartoszSwiderski_2_09262020_A/2e20809c3ea43d4cdeb60c679d83d1ec4cd53ca1/images/logo/Reservia.svg)](https://bartek-swiderski92.github.io/Reservia/)
+<!-- <br> 
+![image](https://github.com/bartek-swiderski92/Reservia/blob/master/snips/reservia-dekstop.png?raw=true)
+<br>
+![image](https://github.com/bartek-swiderski92/Reservia/blob/master/snips/reservia-dekstop.png?raw=true)
+<br> -->
+<div display="flex">
+        <div> Mobile: 
+                <br>
+<img width="45%" src="https://github.com/bartek-swiderski92/Reservia/blob/master/snips/reservia-mobile.png?raw=true" />&nbsp;&nbsp;
+        </div>
+        <div> Desktop:  
+                <br>
+<img width="45%" src="https://github.com/bartek-swiderski92/Reservia/blob/master/snips/reservia-desktop.png?raw=true" />&nbsp;&nbsp;
+        </div>
+</div>
+
 
 ## **Practical project demonstrating basic HTML and CSS skills. No JS or frameworks included.**
 A single page, responsive website ranging from small mobile phones to desktop devices. The website uses only simple animations and it doesn't use javaScript.
@@ -22,6 +37,7 @@ A single page, responsive website ranging from small mobile phones to desktop de
         <img src="https://img.shields.io/badge/html5%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white" />&nbsp;&nbsp;
         <img src="https://img.shields.io/badge/CSS3-1572B6?&style=for-the-badge&logo=css3&logoColor=white" />&nbsp;&nbsp;
 </p>
+
 ### The project is based on below scenario:
 
 > _From:  Loïc_  
