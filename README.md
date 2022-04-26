@@ -4,12 +4,7 @@
 <br> 
 
 [![image](https://raw.githubusercontent.com/phos23/BartoszSwiderski_2_09262020_A/2e20809c3ea43d4cdeb60c679d83d1ec4cd53ca1/images/logo/Reservia.svg)](https://bartek-swiderski92.github.io/Reservia/)
-<!-- <br> 
-![image](https://github.com/bartek-swiderski92/Reservia/blob/master/snips/reservia-dekstop.png?raw=true)
-<br>
-![image](https://github.com/bartek-swiderski92/Reservia/blob/master/snips/reservia-dekstop.png?raw=true)
-<br> -->
-<div display="flex">
+<div>
         <div> Mobile: 
                 <br>
 <img width="45%" src="https://github.com/bartek-swiderski92/Reservia/blob/master/snips/reservia-mobile.png?raw=true" />&nbsp;&nbsp;
