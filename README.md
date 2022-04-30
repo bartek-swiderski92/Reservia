@@ -1,4 +1,4 @@
-# **Second project in Web Developer path on OpenClassrooms** 
+# **Reservia** 
 
 ## **Turn Mock-ups Into a Web Page**
 <br> 
